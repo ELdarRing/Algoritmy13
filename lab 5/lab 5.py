@@ -51,7 +51,10 @@ print("Отрицательных:", negative)
 print("Чётных:", even)
 
 #Задание 4
-x = int(input())
+numbers = [1, 2, 3, 6, 8, 9, 12]
+n = len(numbers)
+
+x = int(input("Введите число для поиска:"))
 found = False
 
 for i in range(n):
@@ -62,7 +65,6 @@ for i in range(n):
 
 if not found:
     print("Число не найдено.")
-
 #Задание 5
 numbers = [1, 5, 3, 9, 7, 12]
 n = len(numbers)
