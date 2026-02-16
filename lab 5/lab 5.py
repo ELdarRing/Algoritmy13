@@ -65,6 +65,7 @@ for i in range(n):
 
 if not found:
     print("Число не найдено.")
+    
 #Задание 5
 numbers = [1, 5, 3, 9, 7, 12]
 n = len(numbers)
