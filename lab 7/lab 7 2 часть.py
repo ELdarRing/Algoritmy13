@@ -70,4 +70,4 @@ def count_depth(n):
         return 1
     return 1 + count_depth(n - 1)
 
-print(count_depth(5))  # 6
+print(count_depth(5))  
